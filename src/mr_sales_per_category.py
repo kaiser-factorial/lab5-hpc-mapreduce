@@ -13,4 +13,4 @@ class MRSalesPerCategory(MRJob):
     yield key, sum(values)
     
 if __name__ == "__main__":
-MRSalesPerCategory.run()
+  MRSalesPerCategory.run()
